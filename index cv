@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Rahmat Mahkdum</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Curriculum Vitae</div>
+    <div class="hamburger"><i class="fas fa-bars"></i></div>
+  </div>
+
+  <div class="overlay"></div>
+  <div class="menu">
+    <span class="close-btn"><i class="fas fa-times"></i></span>
+    <a href="#ringkasan">Ringkasan</a>
+    <a href="#projects">Projects</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#organisasi">Organisasi</a>
+    <a href="#skills">Kemampuan</a>
+    <a href="#contact">Kontak</a>
+  </div>
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <img src="/img/profil.jpg" alt="Foto Profil">
+      <div class="social-icons">
+        <a href="https://github.com/RAHMATMAHKDUM"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/rahmat_mahkdum?igsh=MXV1NHNja29tZ2cwbQ=="><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <h3>Front-End Developer</h3>
+      <h1>Rahmat Mahkdum</h1>
+      <p>Mahasiswa semester 6 Program Studi Rekayasa Perangkat Lunak yang antusias dalam pengembangan web, khususnya di bidang front-end. Seorang pengembang front-end yang termotivasi, cepat beradaptasi dengan teknologi baru, serta berkomitmen untuk menciptakan antarmuka pengguna yang responsif dan interaktif.</p>
+     <a href="/Portofolio.pdf" class="btn btn-primary" download>Download Portofolio</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="ringkasan">
+    <h2>Ringkasan</h2>
+    <p>Mahasiswa semester 6 Program Studi Rekayasa Perangkat Lunak yang antusias dalam pengembangan web, khususnya di bidang front-end. Memiliki keterampilan yang solid dalam HTML, CSS, JavaScript, dan PHP. Seorang pengembang front-end yang termotivasi, cepat beradaptasi dengan teknologi baru, serta memiliki semangat belajar tinggi. Berkomitmen untuk menciptakan antarmuka pengguna yang responsif, interaktif, dan ramah pengguna.</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cv-list">
+      <div class="cv-item">
+        <h3>Website Rental Mobil Online</h3>
+        <p>Menggunakan PHP native dan Bootstrap untuk menciptakan platform rental mobil yang user-friendly dan responsif.</p>
+      </div>
+      <div class="cv-item">
+        <h3>School Website</h3>
+        <p>Pengembangan website sekolah menggunakan Laravel framework untuk sistem manajemen konten yang komprehensif.</p>
+      </div>
+      <div class="cv-item">
+        <h3>Aplikasi Mobile Cek Gaji</h3>
+        <p>Aplikasi Android menggunakan Android Studio dengan bahasa Java untuk memudahkan karyawan mengecek slip gaji.</p>
+      </div>
+      <div class="cv-item">
+        <h3>Game Edukasi Tebak Buah</h3>
+        <p>Game interaktif menggunakan JavaScript untuk edukasi anak-anak dalam mengenal berbagai jenis buah.</p>
+      </div>
+    </div>
+  </section>
+  <section id="pendidikan">
+    <h2>Riwayat Pendidikan</h2>
+    <div class="cv-list">
+      <div class="cv-item">
+        <h3>Politeknik Balekambang Jepara</h3>
+        <p>Rekayasa Perangkat Lunak (2022 - Sekarang)</p>
+        <p><strong>IPK:</strong> 3.55/4.00 | <strong>Semester:</strong> 6</p>
+      </div>
+    </div>
+  </section>
+  <section id="organisasi">
+    <h2>Pengalaman Organisasi</h2>
+    <div class="cv-list">
+      <div class="cv-item">
+        <h3>HIMA Rekayasa Perangkat Lunak - Sie. Pendir</h3>
+        <p><strong>Periode:</strong> 2024 - 2025</p>
+        <p>Melaksanakan kegiatan yang mendukung pengembangan potensi individu anggota maupun peserta, baik dalam aspek soft skill maupun hard skill. Sie pendir berperan dalam menyusun program pelatihan, seminar, atau aktivitas lain yang dapat meningkatkan kapasitas diri dan menumbuhkan rasa percaya diri, tanggung jawab, serta kepemimpinan.</p>
+      </div>
+      <div class="cv-item">
+        <h3>Pelatihan Microsoft Office - Ketua Pelaksana</h3>
+        <p><strong>Semester:</strong> 4</p>
+        <p>Bertanggung jawab dalam memimpin dan mengoordinasikan seluruh rangkaian kegiatan. Menyusun rencana kerja, membentuk struktur kepanitiaan, serta memastikan setiap seksi menjalankan tugasnya dengan baik. Mengambil keputusan penting selama pelaksanaan kegiatan dan bertanggung jawab penuh atas keberhasilan serta evaluasi kegiatan.</p>
+      </div>
+      <div class="cv-item">
+        <h3>Pelatihan Desain Grafis - Sie. Bendahara</h3>
+        <p><strong>Semester:</strong> 5</p>
+        <p>Bertanggung jawab atas pengelolaan keuangan kegiatan, mulai dari penyusunan anggaran, pencatatan pemasukan dan pengeluaran, hingga pembuatan laporan keuangan secara transparan. Memastikan seluruh transaksi tercatat dengan rapi dan disertai bukti pendukung seperti nota atau kwitansi.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Kemampuan</h2>
+    <div class="cv-list">
+      <div class="cv-item">
+        <h3>Hard Skills</h3>
+        <p><strong>Programming:</strong> HTML, CSS, JavaScript, PHP</p>
+        <p><strong>Frameworks:</strong> Bootstrap, Laravel</p>
+        <p><strong>Tools:</strong> Android Studio, Canva, MS Word</p>
+      </div>
+      <div class="cv-item">
+        <h3>Soft Skills</h3>
+        <p>Komunikasi yang Efektif, Manajemen Waktu, Tanggung Jawab, Kerja Tim dan Kolaborasi</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Kontak</h2>
+    <div class="cv-list">
+      <div class="cv-item">
+        <h3>Informasi Kontak</h3>
+        <p><strong>Email:</strong> rahmatmakdum@gmail.com</p>
+        <p><strong>Telepon:</strong> 083843904502</p>
+        <p><strong>GitHub:</strong> https://github.com/RAHMATMAHKDUM</p>
+        <p><strong>Alamat:</strong> Mambak, Pakis Aji, Jepara</p>
+      </div>
+    </div>
+  </section>
+  <script src="/js/script.js"></script>
+
